@@ -37,7 +37,7 @@ Post.init(
             allowNull: false,
             // id becomes the primary key
             primaryKey: true,
-            autoIncrement: true,
+            autoIncrement: true
         },
         title: {
             type: DataTypes.STRING,
