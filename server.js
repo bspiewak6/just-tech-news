@@ -1,8 +1,10 @@
 const path = require('path');
 const express = require('express');
+// change routes folder link to controllers
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
-// Handlebars.js as the app's template engine of choice:
+
+// Handlebars.js -- template engine
 const exphbs = require('express-handlebars');
 const hbs = exphbs.create({});
 
