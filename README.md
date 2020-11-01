@@ -1,7 +1,17 @@
-# Just Tech News
+# 13-project
 
-# Description
-Build the back end for my first completely full-stack application, Just Tech News—a tech news website where users can post, upvote, and comment on links to news articles. 
+## For `.env`
 
-# Technologies
-Sequelize, an object-relational mapping (ORM) library, to simplify MySQL queries, add password hashing so that users can create secure passwords, and connect the application to JawsDB, a MySQL add-on for Heroku. 
+```plaintext
+DB_NAME=''
+DB_USER=''
+DB_PW=''
+```
+
+## Run All Seeds
+
+```bash
+npm run seeds
+# OR
+node seeds/index.js
+```
